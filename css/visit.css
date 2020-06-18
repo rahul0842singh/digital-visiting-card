@@ -1,0 +1,1342 @@
+body:after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #ffffff;
+  z-index: -10;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+body{
+    background-color: rgba(49, 203, 214, 0.685);
+}
+.header
+{
+  height: 8%;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: fixed;
+  margin-left: 9.5%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-box-shadow: 0px 10px 5px #27272752;
+  -moz-box-shadow: 0px 10px 5px #2727274d;
+ 
+  
+
+}
+
+.companytext
+{
+  margin-top: 1.5%;
+  position: fixed;
+  font-family: Montserrat;
+  margin-left: 8%;
+  cursor: pointer;
+
+}
+
+.iconuser
+{
+  margin-left: 1.5%;
+  margin-top: 0.5%;
+  position: fixed;
+   cursor: pointer;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 2.5%;
+  position: fixed;
+  margin-top: -1%;
+  cursor: pointer;
+}
+
+
+.company
+{
+  text-align: center;
+}
+
+.gallery
+{
+  text-align: center;
+}
+
+.gallerytext
+{
+  margin-top: 1.5%;
+  position: fixed;
+  margin-left: -1.8%;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.icon{
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 2.5%;
+  position: fixed;
+  margin-top: 0.5%;
+  cursor: pointer;
+}
+
+.review
+{
+  text-align: center;
+}
+
+.reviewtext
+{
+  margin-top: 1.5%;
+  position: fixed;
+  margin-left: -1.6%;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.icon3
+{
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 2.5%;
+  position: fixed;
+  margin-top: 0.5%;
+  cursor: pointer;
+}
+
+.icon2
+{
+  cursor: pointer;
+}
+.message
+{
+  text-align: center;
+}
+
+.messagetext
+{
+  margin-top: -0.2%;
+  position: fixed;
+  margin-left: 57.5%;
+  font-family: Montserrat;
+  cursor: pointer;
+}
+
+.icon4
+{
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 58%;
+  position: fixed;
+  margin-top: -1.8%;
+  cursor: pointer;
+  
+}
+
+
+.maindiv{
+  height: 130%;
+  position: absolute;
+  background-color: rgb(245, 245, 245);
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 15px;
+  
+}
+.logo
+{
+  height: 40%;
+  position: relative;
+  width: 105.5%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: -2.7%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+}
+
+.nametext
+{
+  padding-top: 7px;
+  font-family: monserrat;
+  font-weight: bold;
+  position: relative;
+}
+
+.subnametext
+{
+  font-family: cursive;
+  margin-top: -1.5%;
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.whatsapp
+{
+  position: absolute;
+  margin-top: -23%;
+  margin-left: 60%;
+  background-color: #563d7c;
+  border-radius: 50px;
+  border: 1px solid rgba(2, 2, 2, 0.473);
+  color: rgba(247, 236, 236, 0.966);
+  height: 4.5%;
+  width: 7%;
+  
+}
+
+button :focus
+{
+  outline: none !important;
+
+}
+
+.phonecall
+{
+  position: absolute;
+  margin-top: -23%;
+  margin-left: 70%;
+  background-color: #563d7c;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  color: rgba(247, 236, 236, 0.87);
+  height: 4.5%;
+  width: 7%;
+  
+}
+.contact
+{
+  position: absolute;
+  margin-top: -23%;
+  margin-left: 80%;
+  background-color: #563d7c;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  color: rgba(255, 255, 255, 0.87);
+  height: 4.5%;
+  width: 7%;
+  
+}
+
+.phone
+{
+  height: 9%;
+  position: absolute;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5%;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px #27272752;
+  -moz-box-shadow: 10px 10px 5px #2727274d;
+  float: left;
+  color: rgb(12, 12, 12);
+
+}
+
+.phone2
+{
+  height: 9%;
+  position: absolute;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 50%;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px #27272752;
+  -moz-box-shadow: 10px 10px 5px #2727274d;
+
+}
+
+.website
+{
+  height: 9%;
+  position: absolute;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5%;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px #27272752;
+  -moz-box-shadow: 10px 10px 5px #2727274d;
+  margin-top: 20%;
+
+}
+
+.emaildiv
+{
+  height: 9%;
+  position: absolute;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 50%;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px #27272752;
+  -moz-box-shadow: 10px 10px 5px #2727274d;
+  margin-top: 20%;
+
+}
+
+
+.phoneicon
+{
+  position: relative;
+  margin-left: 10%;
+  transform: scale(1.8,1.8);
+  margin-top: 9%;
+}
+
+.phonetext
+{
+  margin-left: 10%;
+  margin-top: 1%;
+  position: absolute;
+  font-family: monserrat;
+}
+
+.phonetext1
+{
+  margin-left: 10%;
+  margin-top: 13%;
+  position: absolute;
+  font-family: monserrat;
+  font-weight: bold;
+
+}
+
+.icon1
+{
+  cursor: pointer;
+}
+.secondphonetext
+{
+  margin-left: 10%;
+  margin-top: 1%;
+  position: absolute;
+  font-family: monserrat;
+}
+
+.phoneicon1
+{
+  position: relative;
+  margin-left: 10%;
+  transform: scale(1.8,1.8);
+  margin-top: 9%;
+}
+
+.phonetext2
+{
+  margin-left: 10%;
+  margin-top: 13%;
+  position: absolute;
+  font-family: monserrat;
+  font-weight: bold;
+
+}
+
+.emailicon
+{
+  position: relative;
+  margin-left: 10%;
+  transform: scale(1.8,1.8);
+  margin-top: 9%;
+}
+
+.emailtext
+{
+  margin-left: 10%;
+  margin-top: 1%;
+  position: absolute;
+  font-family: monserrat;
+}
+
+.emailtext2
+{
+  margin-left: 10%;
+  margin-top: 13%;
+  position: absolute;
+  font-family: monserrat;
+  font-weight: bold;
+
+}
+
+.homeicon
+{
+  position: relative;
+  margin-left: 10%;
+  transform: scale(1.8,1.8);
+  margin-top: 3%;
+}
+.addresstext
+{
+  margin-left: 10%;
+  margin-top: 1%;
+  position: absolute;
+  font-family: monserrat;
+}
+
+.addresstext2
+{
+  margin-left: 10%;
+  margin-top: 7%;
+  position: absolute;
+  font-family: monserrat;
+  font-weight: bold;
+}
+
+.address{
+  height: 11%;
+  position: relative;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 5%;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px #27272752;
+  -moz-box-shadow: 10px 10px 5px #2727274d;
+  margin-top: 48%;
+
+}
+.code
+{
+  margin-top: 5%;
+  position: absolute;
+  width: 15.8%;
+  margin-left: 5%;
+ 
+  height: 15%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.inputicon
+{
+  position: relative;
+  transform: scale(1,1);
+  margin-top: -0.9%;
+  
+}
+
+.btn
+{
+  position: relative;
+  margin-top: 4.2%;
+  margin-left: 59.4%;
+  transform: scale(0.7,0.7);
+  background-color: #07BC4C;
+  height: 4%;
+  width: 8%;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+
+.input1
+{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.075);
+  margin-top: 5%;
+  position: absolute;
+  height: 15.8%;
+  margin-left: 22%;
+  
+}
+
+::-webkit-input-placeholder {
+  font-family: cursive;
+  font-size: 13px;
+  margin-left: 5%;
+}
+::-moz-placeholder {
+  color: peachpuff;
+  font-size: 13px;
+}
+
+input {
+ 
+  padding: 0 20px;
+  font-family: cursive;
+}
+
+.map
+{
+  position: fixed;
+  margin-left: 67%;
+  margin-top: 24%;
+  border: 2px solid black;
+  height: 48%;
+  width: 30%;
+
+
+}
+
+.mapicon
+{
+  transform: scale(1.8,1.8);
+  position: fixed;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.maptext
+{
+  position: fixed;
+  margin-left: 3.5%;
+  margin-top: 1%;
+  font-family: monserrat;
+  font-weight: bold;
+
+}
+
+.mapdiv
+{
+  height: 9%;
+  position: fixed;
+  width: 7%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 53%;
+  border-radius: 100px;
+  -webkit-box-shadow:   10px 10px 5px #27272752;
+  -moz-box-shadow: 10px 10px 5px #2727274d;
+  margin-top: 35%;
+  border-left: 1px solid rgba(0, 0, 0, 0.103);
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+  
+
+}
+
+.menubtn
+{
+  position: absolute;
+ 
+  margin-top: -12%;
+  margin-left: 80%;
+  background-color: #1b926c;
+  border-radius: 50px;
+  border: 1px solid rgba(2, 2, 2, 0.473);
+  color: rgba(247, 236, 236, 0.966);
+  height: 4.5%;
+  width: 7%;
+  
+  
+  
+}
+
+.menuicon
+{
+  margin-left: -13%;
+  position: absolute;
+  margin-bottom: 10%;
+}
+
+
+.govt
+{
+  height: 50%;
+  width: 50%;
+  position: relative;
+  margin-top: 80%;
+  border: 1px black solid;
+  margin-left: 0%;
+}
+
+.apkpic
+{
+  height: 50%;
+  width: 50%;
+  position: relative;
+  margin-left: 53%;
+  border: 1px black solid;
+  margin-top: -150%;
+}
+
+.logopic
+{
+  height: 20%;
+  width: 50%;
+  position: relative;
+  border: 1px black solid;
+  margin-left: -2%;
+  margin-top: -235%;
+}
+
+.india
+{
+  height: 30%;
+  width: 50%;
+  position: relative;
+  border: 1px black solid;
+  margin-top: -15%;
+  margin-left: -53%;
+}
+.message1{
+  display: block;
+  box-sizing: border-box;
+ 
+  width: 200px;
+  height: 28px;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  
+}
+
+.mobile
+{
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 28px;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  float: right;
+  margin-left: 20%;
+}
+
+.email{
+  
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 28px;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.name
+{
+  
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 28px;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+.submitbtn
+{
+  
+  border: none;
+  width: 30%;
+  height: 70%;
+  margin-top: 2%;
+  margin-left: 30%;
+  
+}
+
+td{
+  font-family: cursive;
+  font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+  font-family: cursive;
+  font-size: 13px;
+  margin-left: 5%;
+  opacity: 0.8;
+}
+::-moz-placeholder {
+  font-size: 13px;
+}
+
+
+.mobilediv
+{
+    margin-left: 20%;
+}
+
+#myLinks {
+  display: none;
+}
+
+.iconbar{
+  background: #563d7c;
+  display: block;
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 81%;
+  transform: scale(1.5,1.5);
+  border-radius: 30px;
+  width: 5%;
+  text-align: center;
+  color: white;
+}
+
+.iconbar :hover
+{
+    color: rgb(0, 26, 255);
+}
+
+
+.menuicon
+{
+    position: absolute;
+    margin-top: -10%;
+}
+
+.listicon
+{
+    display: inline-block;
+    margin-left: 10%;
+    transform: scale(1.5,1.5);
+    color: #29487d
+}
+
+.listicon1
+{
+    display: inline-block;
+    margin-left: 10%;
+    transform: scale(1.5,1.5);
+    color: rgba(161, 40, 40, 0.774);
+}
+
+.listicon2
+{
+    display: inline-block;
+    margin-left: 10%;
+    transform: scale(1.5,1.5);
+    color: rgb(162, 59, 202);
+    cursor: pointer;
+}
+
+
+.modalshare {
+  position: relative;
+  top: -23px;
+  right: 100px;
+  margin-top: -10%;
+  background-color: rgb(196, 51, 51);
+  border-radius: 20px;
+  
+ 
+  
+}
+
+.facebook
+{
+ 
+  transform: scale(2,2);
+  margin-left: 5%;
+  color: #29487d
+  
+}
+
+.twitter
+{
+  
+  transform: scale(2,2);
+  margin-left: 10%;
+  color: rgba(29,161,242,1.00);
+}
+
+.linkedin
+{
+  transform: scale(2,2);
+  margin-left: 38%;
+  margin-top: 1%;
+  position: absolute;
+  color: rgb(0, 115, 176);;
+  
+}
+
+.apk
+{
+  transform: scale(2,2);
+  margin-left: 25%;
+  color: #07BC4C;;
+}
+
+.sms
+{
+  transform: scale(2,2);
+  margin-left: 28%;
+  color: pink;
+}
+
+.messenger
+{
+  transform: scale(0.8,0.8);
+  margin-left: 7%;
+  margin-top: -1.5%;
+  position: absolute;
+}
+
+.email1{
+  transform: scale(1.5,1.5);
+  margin-left: 10%;
+  margin-top: 1%;
+  position: absolute;
+  color: #6001d2;
+}
+
+
+
+
+.modalmenu
+{
+   border-radius: 20px;
+   
+}
+
+.title
+{
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.modal
+{
+   background-color: rgba(0, 0, 0, 0.856);
+}
+
+#photo
+{
+   margin-left: 5%;
+   font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#photo :focus
+{
+   color: #78cc6d;
+   
+   
+}
+#video
+{
+   margin-left: 5%;
+   font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#all
+{
+   margin-left: 35%;
+   font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #78cc6d;
+}
+
+.btn2020
+{
+ background-color: #28a745;
+ border: none;
+ border-radius: 5px;
+ height: 10%;
+ 
+  
+}
+
+.reviewedit
+{
+  font-size: 14px;
+}
+
+.collapse1
+{
+  margin-top: 20.3%;
+  position: fixed;
+  margin-left: 50%;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  background-color: #563d7c;
+  border: none;
+}
+.collapse1 :focus
+{
+  border: 1px black solid;
+}
+.collapse1body
+{
+  margin-top: 22.8%;
+  position: fixed;
+  margin-left: 40.5%;
+  overflow: scroll;
+  width: 50%;
+  height: 50%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(0, 0, 0);
+
+
+  }
+
+  .header{
+
+    width: 100%;
+    margin-left: 0%;
+    background-color: #83ddceee;
+    z-index: 1 !important;
+    overflow: hidden;
+    
+  }
+
+  .iconuser
+  {
+    margin-left: -40%;
+    color: rgb(7, 7, 7);
+    margin-top: 1%;
+    
+  }
+  
+  
+  .companytext
+  {
+    margin-top: 6%;
+    font-size: 10px;
+    margin-left: 1%;
+  }
+
+  .icon1{
+    margin-left: -28%;
+    color: rgb(17, 17, 17); ;
+  }
+
+  
+  .gallerytext
+  {
+    margin-top: 6%;
+    margin-left: -4.5%;
+    font-size: 10px;
+    
+    
+  }
+
+  .icon17
+  {
+    margin-top: -5%;
+    margin-left: 9%;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    
+  }
+
+   
+  .reviewtext
+  {
+    margin-top: -0.7%;
+    margin-left: 8.8%;
+    font-size: 10px;
+    
+  }
+    
+  .messagetext
+  {
+    margin-top: -0.3%;
+    margin-left: 30.5%;
+    font-size: 10px;
+    
+  }
+  
+  .icon4
+  {
+   
+    margin-left: 30%;
+    margin-top: -7%;
+    color: rgb(0, 0, 0); ;
+  }
+
+  .maindiv
+  {
+    width: 100%;
+    height: 130%;
+    margin-left: 0%;
+  }
+
+  .logo
+  {
+    height: 20%;
+    width: 109%;
+    margin-left: -4.5%;
+
+  }
+  
+  .whatsapp
+  {
+    
+    margin-top: -32%;
+    height: 3.5%;
+    width: 7.5%;
+
+  }
+
+  .phonecall
+  {
+    
+    margin-top: -32%;
+    height: 3.5%;
+    width: 7.5%;
+   
+    
+  }
+  .contact
+  {
+    margin-top: -32%;
+    height: 3.5%;
+    width: 7.5%;
+  }
+
+  .contacts
+  {
+    margin-left: -120%;
+    position: relative;
+    width: 7.5%;
+  }
+
+  .menubtn
+  {
+    margin-top: -18%;
+    height: 3.5%;
+    width: 7.5%;
+     
+  }
+  
+  .menuicon
+  {
+    margin-left: -18%;
+    margin-top: -15%;
+    position: relative;
+  }
+
+  .nametext
+  {
+    font-size: 27px;
+  }
+
+  .subnametext
+  {
+    font-size: 12.5px;
+    margin-top: -3%;
+  }
+
+  .phone
+  {
+    height: 5%;
+    
+  }
+
+   
+  .phoneicon
+  {
+    transform: scale(1,1);
+  }
+  
+  .phonetext
+  {
+    font-size: 16px;
+  }
+  .phonetext1
+  {
+    font-size: 13px;
+  
+  }
+
+  .phone2{
+    height: 5%;
+  }
+
+  .secondphonetext
+  {
+    font-size: 16px;
+  }
+  
+  .phoneicon1
+  {
+   
+    transform: scale(1,1);
+  
+  }
+  
+  .phonetext2
+  {
+    font-size: 13px;
+  
+  }
+
+  .website{
+    height: 5%;
+  }
+
+  .emailicon
+  {
+    
+    transform: scale(1,1);
+    
+  }
+  
+  .emailtext
+  {
+    font-size: 16px;
+
+  }
+  
+  .emailtext2
+  {
+   font-size: 13px;
+  
+  }
+
+  .emaildiv
+  {
+    height: 5%;
+  }
+
+  .homeicon
+  {
+    position: relative;
+    margin-left: 10%;
+    transform: scale(1,1);
+    margin-top: 3%;
+  }
+  .addresstext
+  {
+   font-size: 16px;
+  }
+  
+  
+  
+  .address{
+    height: 13%;
+  
+  
+  }
+  .addresstext2
+  {
+    font-size: 13px;
+    margin-top: 10%;
+  }
+
+  .code
+  {
+    height: 16%;
+  }
+
+  .input1
+  {
+    height: 16.7%;
+  }
+  .btn
+  {
+    margin-top: 4%;
+    margin-left: 60.5%; 
+    transform: scale(0.9,0.7);border-radius: 20px;
+    
+    
+    
+  }
+
+  .inputicon
+  {
+    margin-left: -5px;
+    
+    
+  }
+  
+  .mapdiv
+  {
+    height: 7%;
+    position: absolute;
+    width: 20%;
+    margin-top: 165%;
+    margin-left: 8%;
+  
+  }
+
+  .map
+  {
+    height: 30%;
+    width: 98%;
+    margin-left: 1%;
+    position: absolute;
+    margin-top: 180%;
+  }
+
+  .mapicon
+  {
+    transform: scale(1,1);
+    position: relative;
+    margin-left: 20%;
+    margin-top: 18%;
+  }
+
+  .maptext
+  {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    font-family: monserrat;
+    font-weight: bold;
+  
+  }
+
+  ::-webkit-input-placeholder {
+    font-family: serif;
+   
+  }
+
+  
+.submitbtn
+{
+  
+  margin-left: -2%;
+  float: left;
+
+  
+}
+
+input[type="button"]{
+  font-family: serif;
+}
+
+
+.facebook
+{
+ 
+  transform: scale(1.5,1.5);
+  margin-left: 2%;
+
+  
+}
+
+.twitter
+{
+  
+  transform: scale(1.5,1.5);
+  margin-left: 7%;
+
+}
+
+.linkedin
+{
+  transform: scale(1.4,1.4);
+  margin-left: 34%;
+  margin-top: 1.5%;
+ 
+  
+}
+
+.apk
+{
+  transform: scale(1.5,1.5);
+  margin-left: 22%;
+
+}
+
+.sms
+{
+  transform: scale(1.5,1.5);
+  margin-left: 25%;
+ 
+}
+
+.messenger
+{
+  transform: scale(0.5,0.5);
+  margin-left: 4%;
+  
+}
+
+.email1{
+  transform: scale(1.1,1.1);
+  margin-left: 7%;
+
+
+}
+
+
+
+}
+
